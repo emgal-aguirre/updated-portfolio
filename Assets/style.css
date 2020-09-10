@@ -164,13 +164,13 @@ small {
 
   .projects {
     background-color: #e6dacd;
-    height: 700px;
+    
   }
 
   .projects .project-title {
       text-align: center;
       margin-top: 20px;
-      padding-top: 70px;
+      padding-top: 10px;
       align-items: center;
   justify-content: center;
   }
@@ -221,8 +221,9 @@ justify-content: center;
     font-size: 12px;
 }
 
-.projects .project-card {
-    margin: 10;
+.projects .project-card .project-photo{
+    margin: 10px;
+    padding: 30px
 }
 
 .project-photo {
