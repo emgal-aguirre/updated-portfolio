@@ -115,7 +115,7 @@ small {
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
     
-    img {
+   .headshot {
         border-radius: 50%;
         position: absolute;
         top:30px;
@@ -186,4 +186,46 @@ small {
     margin-top: 5px;
     align-items: center;
 justify-content: center;
+}
+
+.projects .card-body{
+    text-align: left;
+}
+
+.projects .card-title{
+    font-weight: bolder;
+    color: #0d50ff;
+
+}
+
+.projects .checkout-btn{
+    padding: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 90px;
+    height: 30px;
+    border-radius: 12px;
+    font-size: 10px;
+    background-color: 	#0d50ff;
+}
+
+.projects .card-discription{
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+
+.projects .card-text{
+    font-weight: light;
+    font-size: 12px;
+}
+
+.projects .project-card {
+    margin: 10;
+}
+
+.project-photo {
+    padding: 20px;
+    inline-size: 10px;
 }
