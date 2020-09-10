@@ -30,13 +30,21 @@ small {
 }
 
 .sqaure {
-    height: 12px;
-    width: 12px;
-    display: inline-block;
-    background: #f67c92;
-    margin: 15px 0px;
-    padding-right: 0;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;    
+    background: #0d50ff;
 }
+
+ 
+#square_blue {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    margin-top: 10px;
+    background: #0d50ff;
+
+  }
 
 /* dont delete below astrict */
  */
@@ -152,4 +160,30 @@ small {
         background-color: 	#0d50ff;
     }
 
-  
+  /* projects */
+
+  .projects {
+    background-color: #e6dacd;
+    height: 700px;
+  }
+
+  .projects .project-title {
+      text-align: center;
+      margin-top: 20px;
+      padding-top: 70px;
+      align-items: center;
+  justify-content: center;
+  }
+
+
+  .projects h4 {
+      font-weight: bolder;
+      font-size: 30px;
+  }
+
+  .projects .project-text {
+    text-align: center;
+    margin-top: 5px;
+    align-items: center;
+justify-content: center;
+}
