@@ -9,6 +9,7 @@ body {
     padding-top: 40px;
     margin-left: 10px;
     margin-right: 10px;
+    padding-bottom: 10px;
 }
 .name {
     font-family: 'Poppins', sans-serif;
@@ -164,7 +165,7 @@ small {
 
   .projects {
     background-color: #e6dacd;
-    
+    margin-top: 0;
   }
 
   .projects .project-title {
@@ -229,4 +230,21 @@ justify-content: center;
 .project-photo {
     padding: 20px;
     inline-size: 10px;
+}
+
+.resume-text {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    align-items: center;
+justify-content: center;
+}
+
+.resume-col-left {
+    flex-basis: 50%;
+    text-align: left;
+}
+
+.resume-col-right {
+    flex-basis: 50%;
 }
