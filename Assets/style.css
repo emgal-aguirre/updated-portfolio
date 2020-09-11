@@ -99,7 +99,8 @@ small {
 
 .relative {
     position: absolute;
-    top:20px;
+    top:-5px;
+    left: -10px;
   width: 600px;
   height: 700px;
   background-color: #e6dacd;
@@ -165,9 +166,22 @@ small {
 
   .projects {
     background-color: #e6dacd;
-    margin-top: 0;
+    margin: 0;
   }
 
+  .project-card{
+      margin-top: 40px;
+  }
+
+  .card-img{
+      opacity: 70%;
+      margin-top: 50px;
+      margin-right: -50px;
+  }
+
+  .card-margin{
+      margin: 10px;
+  }
   .projects .project-title {
       text-align: center;
       margin-top: 20px;
@@ -232,6 +246,12 @@ justify-content: center;
     inline-size: 10px;
 }
 
+.live-link {
+    margin-top: 10px;
+text-align: center;
+}
+
+/* resume */
 .resume-text {
     text-align: center;
     margin-top: 30px;
@@ -247,4 +267,5 @@ justify-content: center;
 
 .resume-col-right {
     flex-basis: 50%;
+    align-items: right;
 }
