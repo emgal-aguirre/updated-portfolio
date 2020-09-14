@@ -229,7 +229,7 @@ small {
 
   .projects .project-title {
       text-align: center;
-      margin-top: 20px;
+      margin-top: 80px;
       padding-top: 10px;
       align-items: center;
   justify-content: center;
@@ -306,13 +306,18 @@ justify-content: center;
 }
 
 .resume-col-left {
-    flex-basis: 50%;
-    text-align: left;
+    flex-basis: 30%;
+    text-align: right;
+    display: inline;
+    padding-top: 30px;
+    padding-bottom: 0%;
+
 }
 
 .resume-col-right {
     flex-basis: 50%;
-    align-items: right;
+    align-items: left;
+    display: inline;
 }
 
 .resume-title {
@@ -334,3 +339,23 @@ justify-content: center;
         margin-top: 350px;
         background-color: 	#0d50ff;
 }
+
+.skills-bullet {
+    list-style-type: square;
+    
+}
+
+ul {
+    margin-left: 0px;
+    margin-right: 40px;
+    
+}
+
+.resume-title{
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
