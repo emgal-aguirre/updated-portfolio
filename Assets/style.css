@@ -171,17 +171,18 @@ small {
 
   .project-card{
       margin-top: 40px;
+      
   }
 
+  .small-card {
+      height: 100%;
+  }
   .card-img{
       opacity: 70%;
       margin-top: 50px;
       margin-right: -50px;
   }
 
-  .card-margin{
-      margin: 10px;
-  }
   .projects .project-title {
       text-align: center;
       margin-top: 20px;
@@ -268,4 +269,14 @@ justify-content: center;
 .resume-col-right {
     flex-basis: 50%;
     align-items: right;
+}
+
+.resume-title {
+    /* margin-top: 0;
+    padding-top: -5px; */
+    /* jhaving trouble with top margin */
+}
+
+.resume-card {
+    margin-top: 5px;
 }
