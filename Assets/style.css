@@ -184,7 +184,7 @@ small {
         background-color: white;
         height: 50px;
         width: 375px;
-        margin-left: .5px;
+        margin-left: .2px;
         padding-top: 10px;
         padding-bottom: 10px;
         
@@ -255,6 +255,7 @@ justify-content: center;
 .projects .card-title{
     font-weight: bolder;
     color: #0d50ff;
+    margin-bottom: 2px;
 
 }
 
@@ -364,4 +365,14 @@ ul {
         float: none;
         margin-bottom: 10px;
         display: flex;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+.resume-discription {
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: -2px;
+    margin-top: 0px;
+    border-radius: 0%;
+}
+
