@@ -359,3 +359,9 @@ ul {
     justify-content: center;
 }
 
+.resume-card {
+    margin: 0 auto;
+        float: none;
+        margin-bottom: 10px;
+        display: flex;
+}
