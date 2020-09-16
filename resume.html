@@ -14,8 +14,7 @@
 
 <body>
     <nav class="navbar">
-        <!-- <span class="sqaure"></span> -->
-        <a class="name">Emily Aguirre<small> /Front-end Developer</small></a>
+        <a class="name">Emily Aguirre<small class="header-title"> /Front-end Developer</small></a>
         <div class="form-inline">
             <a href="./index.html" class="nav-link">ABOUT ME</a>
             <a href="./portfolio.html" class="nav-link">PROJECTS</a>
@@ -40,11 +39,13 @@
                         <p>
                     </div>
                 </div>
-                <!-- cards -->
+                <!-- In the future I would like to add a button to download resume -->
                 <br>
                 <br>
                 <div class="card resume-card" style="max-width: 600px;">
                     <div class="card-body">
+                        <h5 class="card-title" style="color: black;">Education</h5>
+                        <hr class="solid">
                         <div class="row">
                             <div class="col-4">
                                 <h5 class="card-title">2020-Present</h5>
@@ -54,19 +55,18 @@
                             </div>
                             <div class="col-8">
                                 <p class="resume-discription">Relevant Experience </p>
-                                <p class="card-text">•Gained fondational knowledge of web development. Creating
-                                    weekly projects using HTML, CSS, JavaScript, API, AJAX and bootstrap.
+                                <p class="card-text">•Gained foundational knowledge of web development. Creating weekly
+                                    projects using HTML, CSS, JavaScript, API, AJAX, and bootstrap.
                                     <br>
                                     <br>
                                 <p class="resume-discription">Technologies </p>
-                                <p class="card-text">HTML, CSS, JavaScript, Bootstrap, API, Ajax, Jquery, Visiual Studio
-                                    Code and Github.
+                                <p class="card-text">HTML, CSS, JavaScript, Bootstrap, API, Ajax, Jquery, Visual Studio
+                                    Code, and Github.
                                 </p>
                                 </p>
                             </div>
                         </div>
-                        <br>
-                        <br>
+                        <hr class="solid">
                         <div class="row">
                             <div class="col-4">
                                 <h5 class="card-title">2014-2018</h5>
@@ -76,11 +76,13 @@
                             </div>
                             <div class="col-8">
                                 <p class="resume-discription">Relevant Coursework </p>
-                                <p class="card-text">•Class 1 <br>
-                                    •Class 2 <br>
-                                    •Class 3 <br>
-                                    •Class 4 <br>
-                                    •Class 5 <br>
+                                <p class="card-text">
+                                    •Management Information Systems <br>
+                                    •Product and Operations Management <br>
+                                    •Leadership and Teamwork <br>
+                                    •Organizational Behavior <br>
+                                    •Strategic Management <br>
+
                                     <br>
                                     <br>
                                 </p>
@@ -92,7 +94,8 @@
                 <br>
                 <div class="card resume-card" style="max-width: 600px;">
                     <div class="card-body">
-                        <!-- <h5 class="card-title" style="color: black;">Experience</h5> -->
+                        <h5 class="card-title" style="color: black;">Experience</h5>
+                        <hr class="solid">
                         <div class="row">
                             <div class="col-4">
                                 <h5 class="card-title">2018-2019</h5>
@@ -102,19 +105,18 @@
                             </div>
                             <div class="col-8">
                                 <p class="resume-discription">Relevant Experience </p>
-                                <p class="card-text">•Designed and mantained website <br>
-                                    •Designed and mantained internal e-commerce shop <br>
+                                <p class="card-text">•Designed and maintained website<br>
+                                    •Designed and maintained internal e-commerce shop <br>
+                                    •Managed Google My Business <br>
                                     •Assisted sales with developing Salesforce <br>
                                     •Ensured standardization of brand and messaging <br>
-                                    •Developed and executed maketing plans and programs <br>
+                                    •Developed and executed marketing plans and programs
                                     <br>
                                     <br>
                                 </p>
                                 <p class="resume-discription">Technologies </p>
-                                <p class="card-text">Adobe suit, Salesforce, Microsoft 365
+                                <p class="card-text">Adobe Suite, Salesforce, and Microsoft 365
                                 </p>
-
-
                             </div>
                         </div>
                     </div>
@@ -124,6 +126,7 @@
                 <div class="card resume-card" style="max-width: 600px;">
                     <div class="card-body">
                         <h5 class="card-title" style="color: black;">Technical Skillset</h5>
+                        <hr class="solid">
                         <div class="row">
                             <div class="col-6">
                                 <ul>
@@ -142,11 +145,17 @@
                         </div>
                     </div>
                 </div>
-
             </div>
-
     </section>
 
+    <style>
+        @media only screen and (max-width: 600px) {
+            .header-title {
+                display: none;
+            }
+
+        }
+    </style>
 </body>
 
 </html>
