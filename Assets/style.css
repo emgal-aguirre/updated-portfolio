@@ -30,43 +30,29 @@ small {
     color: black;
 }
 
-.sqaure {
-    width: 20px;
-    height: 20px;
-    margin-right: 10px;    
-    background: #0d50ff;
-}
-
- 
+ /* icons  */
 #square_blue {
     width: 15px;
     height: 15px;
     margin-right: 10px;
     margin-top: 10px;
     background: #0d50ff;
-
   }
 
+  .line {
+    position: absolute;
+    top:5px;
+    right: 42%;
+    height: 2px;
+    width: 50px;
+    margin-top: 380px;
+    background-color: 	#0d50ff;
+
+}
 /* dont delete below astrict */
  */
 
 /* about page */
-
-
-#about, #offer {
-    padding: 100px 0;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.about-left-col {
-    flex-basis: 50%;
-}
-
-.about-left-col img {
-    width: 100%;
-}
 
 .about-right-col {
     flex-basis: 50%;
@@ -77,80 +63,40 @@ small {
 
 .about-text {
     max-width: 500px;
-    margin-right: 100px;
-    display: inline-block;
-    margin-top: 10px;
-}
-
-.about-text button {
-    margin-top: 30px;
-    padding: 5px;
-    margin-left: 5px;
-    width: 100px;
-    height: 30px;
-    border-radius: 12px;
-    font-size: smaller;
+    margin-right: 0px;
+    margin-top: 100px;
+    margin-left: 20px;
 }
 
 .about-text p {
     margin-top: 40px;
 }
 
-
-.relative {
-    position: absolute;
-    top:-5px;
-    left: -10px;
-  width: 600px;
-  height: 700px;
-  background-color: #e6dacd;
-}
-
-.absolute {
-    position: absolute;
-    margin-left: 0;
-      top: 100px;
-      right: -5%;
-      width: 375px;
-      height: 500px;
-      background-color: #f5ece7;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    }
     
    .headshot {
         border-radius: 50%;
-        position: absolute;
         top:30px;
-        right: 20%
+        right: 20%;
+        margin-top: 40px;
     
     }
     
     .headshot-name {
-        position: absolute;
         top:250px;
         right: 35%;
         text-align: center;
+        margin-top: 20px;
     }
 
-    /* about-content */
-    
-    .line {
-        position: absolute;
-        top:-10px;
-        right: 42%;
-        height: 2px;
-        width: 50px;
-        margin-top: 350px;
-        background-color: 	#0d50ff;
-    }
+    /* about-bio card-right */
     
     .title {
-        position: absolute;
         top:380px;
         right: 20%;
         text-align: center;
         letter-spacing: 2px;
         font-weight: 400;
+        margin-top: 20px;
     }
     
     h1 {
@@ -167,9 +113,12 @@ small {
     height: 30px;
     border-radius: 12px;
     font-size: smaller;
+    display: inline-block;
     }
 
     .project-btn {
+        background-color: white;
+        border: white;
         margin-top: 30px;
     padding: 5px;
     margin-left: 5px;
@@ -177,46 +126,27 @@ small {
     height: 30px;
     border-radius: 12px;
     font-size: smaller;
+    display: inline-block;
     }
 
-    .social-box{
-        margin-top: 460px;
-        background-color: white;
-        height: 50px;
-        width: 375px;
-        margin-left: .2px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        
-    }
     .social-icons {
         max-width: 25px;
         max-height: 25px;
-        margin-left: 240px;
-        display: inline-block;
+        margin-top: 30px;
+        margin-right: 10px;
     }
 
-    .social-icons-2 {
-        max-width: 25px;
-        max-height: 25px;
-        margin-left: 100px;
-        display: inline-block;
-    }
-
-    .social-left-col{
-        align-items: center;
-    }
   /* projects */
+  /* project class used for all pages to format background and margins */
 
   .projects {
     background-color: #e6dacd;
     margin: 0;
+    min-height: 850px;
   }
 
   .project-card{
       margin-top: 40px;
-      
-      
   }
 
   .small-card {
@@ -236,7 +166,6 @@ small {
       align-items: center;
   justify-content: center;
   }
-
 
   .projects h4 {
       font-weight: bolder;
@@ -258,7 +187,6 @@ justify-content: center;
     font-weight: bolder;
     color: #0d50ff;
     margin-bottom: 2px;
-
 }
 
 .projects .checkout-btn{
@@ -294,44 +222,8 @@ justify-content: center;
     inline-size: 10px;
 }
 
-.live-link {
-    margin-top: 10px;
-text-align: center;
-}
-
 /* resume */
-.resume-text {
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 5px;
-    align-items: center;
-justify-content: center;
-}
 
-.resume-col-left {
-    flex-basis: 30%;
-    text-align: right;
-    display: inline;
-    padding-top: 30px;
-    padding-bottom: 0%;
-
-}
-
-.resume-col-right {
-    flex-basis: 50%;
-    align-items: left;
-    display: inline;
-}
-
-.resume-title {
-    /* margin-top: 0;
-    padding-top: -5px; */
-    /* jhaving trouble with top margin */
-}
-
-.resume-card {
-    margin-top: 5px;
-}
 
 .line-social {
   position: absolute;
@@ -341,11 +233,6 @@ justify-content: center;
         width: 50px;
         margin-top: 350px;
         background-color: 	#0d50ff;
-}
-
-.skills-bullet {
-    list-style-type: square;
-    
 }
 
 ul {
@@ -378,3 +265,51 @@ ul {
     border-radius: 0%;
 }
 
+
+.hr.solid {
+    border-top: 3px solid #bbb;
+  }
+
+
+  /* new about page */
+
+  .bio-card {
+        width: 175px;
+        height: 600px;
+        background-color: #f5ece7;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        size: 40%;
+  }
+
+  .solid-blue {
+    border-top: 3px solid #0d50ff;
+    margin-top: 40px;
+    width: 50%;
+  }
+
+  .about-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-color: black;
+  }
+
+  .bio-card {
+    width: 175px;
+    height: 600px;
+    background-color: #f5ece7;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    size: 40%;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+ }

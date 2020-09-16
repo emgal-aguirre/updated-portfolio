@@ -8,14 +8,16 @@
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="Assets/style.css">
-    <title>Contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<link rel="stylesheet" href="Assets/style.css">
+<title>Contact</title>
 </head>
 
 <body>
     <nav class="navbar">
         <!-- <span class="sqaure"></span> -->
-        <a class="name">Emily Aguirre<small> /Front-end Developer</small></a>
+        <a class="name">Emily Aguirre<small class="header-title"> /Front-end Developer</small></a>
         <div class="form-inline">
             <a href="./index.html" class="nav-link">ABOUT ME</a>
             <a href="./portfolio.html" class="nav-link">PROJECTS</a>
@@ -25,7 +27,9 @@
         </div>
     </nav>
 
-    <!-- project section -->
+
+
+
     <section class="projects">
         <div class="container-fluid project-background mt-5 p-1">
             <div class="card-body">
@@ -33,12 +37,12 @@
                     <div class="col-centered" style="display: flex;">
                         <span id="square_blue" style="display: inline-block;">
                         </span>
-                        <h4>Contact</h4>
+                        <h4>Contact Me</h4>
                     </div>
                 </div>
                 <div class="row project-text">
                     <div class="col-centered" style="display: flex;">
-                        <p>Interested in working with me? Let me know!
+                        <p>Want to work with me? Reach out.
                         <p>
                     </div>
                 </div>
@@ -47,34 +51,36 @@
                 <br>
                 <div class="card resume-card" style="max-width: 600px;">
                     <div class="card-body">
-                        <form>
-                            <div class="form-group">
-                                <label for="exampleInputEmail1" class="font-small">Name</label>
-                                <input type="email" class="form-control" aria-describedby="emailHelp">
-                            </div>
-                            <div class="form-group">
-                                <label for="exampleInputEmail1" class="font-small">Email</label>
-                                <input type="email" class="form-control" aria-describedby="emailHelp">
-                                <small id="emailHelp" class="form-text text-muted" class="font-small">I'll
-                                    never share
-                                    your email
-                                    with anyone
-                                    else.</small>
-                            </div>
-                            <div class="form-group">
-                                <label class="form-check-label" for="exampleCheck1" class="font-small">Message</label>
-                                <textarea class="form-control"></textarea>
-
-                            </div>
-                            <button type="submit" class="btn btn-primary" class="font-small">Submit</button>
-                        </form>
-                        <br>
-                        <br>
+                        <h5 class="card-title p-1" style="color: black;">Let's Chat</h5>
+                        <p>I'd love to work with you. The best way to reach me is via email, send me
+                            an introductory email and I will reach out to you within the week.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><i style="font-size:12px"
+                                class="fa p-3">&#xf0e0;</i>emgal.aguirre@gmail.com</li>
+                        <li class="list-group-item"><i style="font-size:12px" class="fa p-3">&#xf095;</i>806-290-8715
+                        </li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="https://github.com/emgal-aguirre" target="_blank">
+                            <img src="assets/git.png" alt="github" class="social-icons">
+                        </a>
+                        <a href="https://www.linkedin.com/in/emily-gallaway-aguirre-a732b796" target="_blank">
+                            <img src=" assets/linkedin.png" alt="linkedin" class="social-icons">
+                        </a>
                     </div>
                 </div>
             </div>
+        </div>
 
     </section>
+    <style>
+        @media only screen and (max-width: 600px) {
+            .header-title {
+                display: none;
+            }
+        }
+    </style>
 </body>
 
 </html>

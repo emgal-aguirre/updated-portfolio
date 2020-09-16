@@ -14,8 +14,7 @@
 
 <body>
     <nav class="navbar">
-        <!-- <span class="sqaure"></span> -->
-        <a class="name">Emily Aguirre<small> /Front-end Developer</small></a>
+        <a class="name">Emily Aguirre<small class="header-title"> /Front-end Developer</small></a>
         <div class="form-inline">
             <a href="./index.html" class="nav-link">ABOUT ME</a>
             <a href="./portfolio.html" class="nav-link">PROJECTS</a>
@@ -43,15 +42,13 @@
                     </div>
                 </div>
                 <!-- random recipie generator -->
-                <div class="container main-container border project-card">
+                <div class="container main-container project-card">
                     <div class="row row-cols-1 row-cols-md-2">
                         <div class="col mb-4">
                             <div class="card small-card">
                                 <div class="row">
                                     <div class="col-md-4">
                                         <img src="Assets/portfolio4.jpg" class="card-img" alt="...">
-                                        <!-- <p class="card-text live-link">live link
-                                        </p> -->
                                     </div>
                                     <div class="col-md-8">
                                         <div class="card-body">
@@ -156,8 +153,9 @@
                                             <div class=" row">
                                                 <div class="col-12">
                                                     <p class="card-discription">Description </p>
-                                                    <p class="card-text">When a user searches a city a current weather
-                                                        forcast appears including Temperature, Humidity and Wind speed.
+                                                    <p class="card-text">When a user searches a city’s current weather
+                                                        forecast appears including Temperature, Humidity, and Wind
+                                                        speed.
                                                     </p>
                                                     <p class="card-discription">Technologies</p>
                                                     <p class="card-text">HTML 5, CSS, Bootstrap and JavaScript,
@@ -199,7 +197,7 @@
                                                     <p class="card-discription">Description </p>
                                                     <p class="card-text"> A user clicks to start the quiz. Upon
                                                         starting the quiz a timer starts and for each question answered
-                                                        incorrectly, 10 points are detucted.
+                                                        incorrectly, 10 points are deducted.
                                                     </p>
                                                     <p class="card-discription">Technologies</p>
                                                     <p class="card-text">HTML 5, CSS, Bootstrap and JavaScript
@@ -215,8 +213,14 @@
                 </div>
             </div>
         </div>
-        </div>
     </section>
+    <style>
+        @media only screen and (max-width: 600px) {
+            .header-title {
+                display: none;
+            }
+        }
+    </style>
 </body>
 
 </html>
