@@ -7,7 +7,7 @@
  Updated UI, Projects and added Resume page.
  
 
- Here is a link to the deployed website: https://emgal-aguirre.github.io/homework-two-responsive-portfolio/index.html
+ Here is a link to the deployed website: https://emgal-aguirre.github.io/updated-portfolio/index.html
 
 Here are screen shots of my website. 
 
