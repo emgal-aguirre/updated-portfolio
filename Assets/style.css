@@ -130,10 +130,11 @@ small {
     }
 
     .social-icons {
-        max-width: 25px;
-        max-height: 25px;
+        max-width: 50px;
+        max-height: 50px;
         margin-top: 30px;
         margin-right: 10px;
+        color: black;
     }
 
   /* projects */
@@ -273,13 +274,13 @@ ul {
 
   /* new about page */
 
-  .bio-card {
+  /* .bio-card {
         width: 175px;
         height: 600px;
         background-color: #f5ece7;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         size: 40%;
-  }
+  } */
 
   .solid-blue {
     border-top: 3px solid #0d50ff;
@@ -312,4 +313,8 @@ ul {
     background-color: red;
     color: white;
     text-align: center;
+ }
+
+ .project-card .headshot{
+     align-items: center;
  }
