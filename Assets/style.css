@@ -271,6 +271,12 @@ ul {
     border-top: 3px solid #bbb;
   }
 
+  .download {
+      font-size: 10px;
+      display: inline-block;
+      margin-top: 0;
+      margin-left: 70px;
+  }
 
   /* new about page */
 
