@@ -1,286 +1,293 @@
 body {
-    font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 /* navbar */
 
 .navbar {
-    color: black;
-    padding-top: 40px;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding-bottom: 10px;
+  color: black;
+  padding-top: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-bottom: 10px;
 }
 .name {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    font-size: 25px;
-    color: black;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+  color: black;
 }
 
 .navbar .nav-link {
-    font-size: 16px;
-    font-weight: 300;
-    color: black;
+  font-size: 16px;
+  font-weight: 300;
+  color: black;
 }
 
 small {
-    font-size: 16px;
-    font-weight: 300;
-    color: black;
+  font-size: 16px;
+  font-weight: 300;
+  color: black;
 }
 
- /* icons  */
+/* icons  */
 #square_blue {
-    width: 15px;
-    height: 15px;
-    margin-right: 10px;
-    margin-top: 10px;
-    background: #0d50ff;
-  }
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  margin-top: 10px;
+  background: #0d50ff;
+}
 
-  .line {
-    position: absolute;
-    top:5px;
-    right: 42%;
-    height: 2px;
-    width: 50px;
-    margin-top: 380px;
-    background-color: 	#0d50ff;
-
+.line {
+  position: absolute;
+  top: 5px;
+  right: 42%;
+  height: 2px;
+  width: 50px;
+  margin-top: 380px;
+  background-color: #0d50ff;
 }
 /* dont delete below astrict */
- */
+*/
 
 /* about page */
 
 .about-right-col {
-    flex-basis: 50%;
-    text-align: left;
-    top: 175px;
-    right: -5%
+  flex-basis: 50%;
+  text-align: left;
+  top: 175px;
+  right: -5%;
 }
 
 .about-text {
-    max-width: 500px;
-    margin-right: 0px;
-    margin-top: 100px;
-    margin-left: 20px;
+  max-width: 500px;
+  margin-right: 0px;
+  margin-top: 50px;
+  margin-left: 20px;
 }
 
 .about-text p {
-    margin-top: 40px;
+  margin-top: 40px;
 }
 
-    
-   .headshot {
-        border-radius: 50%;
-        top:30px;
-        right: 20%;
-        margin-top: 40px;
-    
-    }
-    
-    .headshot-name {
-        top:250px;
-        right: 35%;
-        text-align: center;
-        margin-top: 20px;
-    }
+.headshot {
+  border-radius: 50%;
+  top: 30px;
+  right: 20%;
+  margin-top: 40px;
+}
 
-    /* about-bio card-right */
-    
-    .title {
-        top:380px;
-        right: 20%;
-        text-align: center;
-        letter-spacing: 2px;
-        font-weight: 400;
-        margin-top: 20px;
-    }
-    
-    h1 {
-        font-size: 80px;
-        font-weight: 800;
-    }
-    
-    .resume-btn {
-        background-color: 	#0d50ff;
-        margin-top: 30px;
-    padding: 5px;
-    margin-left: 5px;
-    width: 100px;
-    height: 30px;
-    border-radius: 12px;
-    font-size: smaller;
-    display: inline-block;
-    }
+.headshot-name {
+  top: 250px;
+  right: 35%;
+  text-align: center;
+  margin-top: 20px;
+}
 
-    .project-btn {
-        background-color: white;
-        border: white;
-        margin-top: 30px;
-    padding: 5px;
-    margin-left: 5px;
-    width: 100px;
-    height: 30px;
-    border-radius: 12px;
-    font-size: smaller;
-    display: inline-block;
-    }
+/* about-bio card-right */
 
-    .social-icons {
-        max-width: 50px;
-        max-height: 50px;
-        margin-top: 30px;
-        margin-right: 10px;
-        color: black;
-    }
+.title {
+  top: 380px;
+  right: 20%;
+  text-align: center;
+  letter-spacing: 2px;
+  font-weight: 400;
+  margin-top: 20px;
+}
 
-  /* projects */
-  /* project class used for all pages to format background and margins */
+h1 {
+  font-size: 80px;
+  font-weight: 800;
+}
 
-  .projects {
-    background-color: #e6dacd;
-    margin: 0;
-    min-height: 850px;
-  }
+.resume-btn {
+  background-color: #0d50ff;
+  margin-top: 30px;
+  padding: 5px;
+  margin-left: 5px;
+  width: 100px;
+  height: 30px;
+  border-radius: 12px;
+  font-size: smaller;
+  display: inline-block;
+}
 
-  .project-card{
-      margin-top: 40px;
-  }
+.project-btn {
+  background-color: white;
+  border: white;
+  margin-top: 30px;
+  padding: 5px;
+  margin-left: 5px;
+  width: 100px;
+  height: 30px;
+  border-radius: 12px;
+  font-size: smaller;
+  display: inline-block;
+}
 
-  .small-card {
-      height: 100%;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  }
-  .card-img{
-      opacity: 70%;
-      margin-top: 50px;
-      margin-right: -50px;
-  }
+.social-icons {
+  max-width: 100%;
+  max-height: 100%;
+  margin-top: 30px;
+  margin-right: 10px;
+  color: black;
+}
 
-  .projects .project-title {
-      text-align: center;
-      margin-top: 80px;
-      padding-top: 10px;
-      align-items: center;
+/* projects */
+/* project class used for all pages to format background and margins */
+
+.projects {
+  background-color: #e6dacd;
+  margin: 0;
+  min-height: 850px;
+}
+
+.project-card {
+  margin-top: 40px;
+}
+
+.small-card {
+  height: 100%;
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card-img {
+  opacity: 70%;
+  margin-top: 50px;
+  margin-right: 0px;
+}
+
+.projects .project-title {
+  text-align: center;
+  margin-top: 80px;
+  padding-top: 10px;
+  align-items: center;
   justify-content: center;
-  }
-
-  .projects h4 {
-      font-weight: bolder;
-      font-size: 30px;
-  }
-
-  .projects .project-text {
-    text-align: center;
-    margin-top: 5px;
-    align-items: center;
-justify-content: center;
 }
 
-.projects .card-body{
-    text-align: left;
+.projects h4 {
+  font-weight: bolder;
+  font-size: 30px;
 }
 
-.projects .card-title{
-    font-weight: bolder;
-    color: #0d50ff;
-    margin-bottom: 2px;
+.projects .project-text {
+  text-align: center;
+  margin-top: 5px;
+  align-items: center;
+  justify-content: center;
+  margin-left: ;
 }
 
-.projects .checkout-btn{
-    padding: 5px;
-    margin-left: 5px;
-    margin-top: 5px;
-    width: 90px;
-    height: 30px;
-    border-radius: 12px;
-    font-size: 10px;
-    background-color: 	#0d50ff;
+.projects .card-body {
+  text-align: left;
 }
 
-.projects .card-discription{
-    font-weight: bold;
-    text-decoration: underline;
-    margin-bottom: 0;
-    margin-top: 5px;
+.projects .card-title {
+  font-weight: bolder;
+  color: #0d50ff;
+  margin-bottom: 2px;
 }
 
-.projects .card-text{
-    font-weight: light;
-    font-size: 12px;
+.projects .checkout-btn {
+  padding: 5px;
+  margin-left: 5px;
+  margin-top: -5px;
+  width: 90px;
+  height: 30px;
+  border-radius: 12px;
+  font-size: 10px;
+  background-color: #0d50ff;
 }
 
-.projects .project-card .project-photo{
-    margin: 10px;
-    padding: 30px
+.projects .checkout-btn-git {
+  padding: 5px;
+  margin-left: 5px;
+  margin-top: 5px;
+  width: 90px;
+  height: 30px;
+  border-radius: 12px;
+  font-size: 10px;
+  background-color: grey;
+  border-color: grey;
+}
+.projects .card-discription {
+  font-weight: bold;
+  text-decoration: underline;
+  margin-bottom: 0;
+  margin-top: 5px;
+}
+
+.projects .card-text {
+  font-weight: light;
+  font-size: 12px;
+}
+
+.projects .project-card .project-photo {
+  margin: 10px;
+  padding: 30px;
 }
 
 .project-photo {
-    padding: 20px;
-    inline-size: 10px;
+  padding: 20px;
+  inline-size: 10px;
 }
 
 /* resume */
 
-
 .line-social {
   position: absolute;
-        top:10px;
-        right: 42%;
-        height: 10px;
-        width: 50px;
-        margin-top: 350px;
-        background-color: 	#0d50ff;
+  top: 10px;
+  right: 42%;
+  height: 10px;
+  width: 50px;
+  margin-top: 350px;
+  background-color: #0d50ff;
 }
 
 ul {
-    margin-left: 0px;
-    margin-right: 40px;
-    
+  margin-left: 0px;
+  margin-right: 40px;
 }
 
-.resume-title{
-    text-align: center;
-    margin-top: 20px;
-    padding-top: 10px;
-    align-items: center;
-    justify-content: center;
+.resume-title {
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 10px;
+  align-items: center;
+  justify-content: center;
 }
 
 .resume-card {
-    margin: 0 auto;
-        float: none;
-        margin-bottom: 10px;
-        display: flex;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
+  display: flex;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .resume-discription {
-    font-weight: bold;
-    text-decoration: underline;
-    margin-bottom: -2px;
-    margin-top: 0px;
-    border-radius: 0%;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-bottom: -2px;
+  margin-top: 0px;
+  border-radius: 0%;
 }
 
-
 .hr.solid {
-    border-top: 3px solid #bbb;
-  }
+  border-top: 3px solid #bbb;
+}
 
-  .download {
-      font-size: 10px;
-      display: inline-block;
-      margin-top: 0;
-      margin-left: 70px;
-  }
+.download {
+  font-size: 10px;
+  display: inline-block;
+  margin-top: 0;
+  margin-left: 70px;
+}
 
-  /* new about page */
+/* new about page */
 
-  /* .bio-card {
+/* .bio-card {
         width: 175px;
         height: 600px;
         background-color: #f5ece7;
@@ -288,40 +295,43 @@ ul {
         size: 40%;
   } */
 
-  .solid-blue {
-    border-top: 3px solid #0d50ff;
-    margin-top: 40px;
-    width: 50%;
-  }
+.solid-blue {
+  border-top: 3px solid #0d50ff;
+  margin-top: 40px;
+  width: 50%;
+}
 
-  .about-background {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 50%;
-    height: 100%;
-    background-color: black;
-  }
+.about-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background-color: black;
+}
 
-  .bio-card {
-    width: 175px;
-    height: 600px;
-    background-color: #f5ece7;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    size: 40%;
+.bio-card {
+  width: 175px;
+  height: 600px;
+  background-color: #f5ece7;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  size: 40%;
 }
 
 .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: red;
-    color: white;
-    text-align: center;
- }
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
 
- .project-card .headshot{
-     align-items: center;
- }
+.project-card .headshot {
+  align-items: center;
+}
 
+.technical-skills {
+  font-size: 12px;
+}

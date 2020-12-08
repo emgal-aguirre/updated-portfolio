@@ -1,311 +1,443 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="Assets/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Assets/style.css" />
     <title>Portfolio</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <nav class="navbar">
-        <a class="name">Emily Aguirre<small class="header-title"> /Front-end Developer</small></a>
-        <div class="form-inline">
-            <a href="./index.html" class="nav-link">ABOUT ME</a>
-            <a href="./portfolio.html" class="nav-link">PROJECTS</a>
-            <a href="./resume.html" class="nav-link">RESUME</a>
-            <a href="./conact.html" class="nav-link">CONTACT</a>
-            <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
-        </div>
+      <a class="name"
+        >Emily Aguirre<small class="header-title">
+          /Front-end Developer</small
+        ></a
+      >
+      <div class="form-inline">
+        <a href="./index.html" class="nav-link">ABOUT ME</a>
+        <a href="./portfolio.html" class="nav-link">PROJECTS</a>
+        <a href="./resume.html" class="nav-link">RESUME</a>
+        <a href="./conact.html" class="nav-link">CONTACT</a>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
+          rel="stylesheet"
+        />
+      </div>
     </nav>
 
     <!-- project section -->
     <section class="projects">
-        <div class="container-fluid project-background mt-5 p-1">
-            <div class="card-body">
-                <div class="row project-title">
-                    <div class="col-centered" style="display: flex;">
-                        <span id="square_blue" style="display: inline-block;">
-                        </span>
-                        <h4>Projects</h4>
-                    </div>
-                </div>
-                <div class="row project-text">
-                    <div class="col-centered" style="display: flex;">
-                        <p>Check out some of my projects down below!
-                        <p>
-                    </div>
-                </div>
-
-                <!-- adding 2 new projects -->
-
-                <!-- random recipie generator -->
-                <div class="container main-container project-card">
-                    <div class="row row-cols-1 row-cols-md-2">
-                        <div class="col mb-4">
-                            <div class="card small-card">
-                                <div class="row">
-                                    <div class="col-md-4">
-                                        <img src="Assets/portfolio4.jpg" class="card-img" alt="...">
-                                    </div>
-                                    <div class="col-md-8">
-                                        <div class="card-body">
-                                            <div class="row">
-                                                <div class="col-7">
-                                                    <div class="col-centered" style="display: flex;">
-                                                        <span id="sidebar_blue" style="display: inline-block;">
-                                                        </span>
-                                                        <h5 class="card-title">Random Recipe <br>Generator</h5>
-                                                    </div>
-                                                </div>
-                                                <div class="col-2">
-                                                    <a href="https://github.com/emgal-aguirre/Recipe-Generator"
-                                                        class="btn btn-primary checkout-btn" type="button"
-                                                        target="_blank">Check it
-                                                        Out</a>
-                                                </div>
-                                            </div>
-                                            <div class=" row">
-                                                <div class="col-12">
-                                                    <p class="card-discription">Description </p>
-                                                    <p class="card-text">A simple script generates a random recipe based
-                                                        on the meal type the user selected.
-                                                    </p>
-                                                    <p class="card-discription">Technologies</p>
-                                                    <p class="card-text">HTML 5, CSS, Materialize CDN, JavaScript,
-                                                        JQuery
-                                                        <br>
-                                                        APIs Used: Edamam, Moment.Js
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- new projects  -->
-                        <div class="col mb-4">
-                            <div class="card small-card">
-                                <div class="row">
-                                    <div class="col-md-4">
-                                        <img src="Assets/portfolio.jpg" class="card-img" alt="...">
-                                    </div>
-                                    <div class="col-md-8">
-                                        <div class="card-body">
-                                            <div class="row">
-                                                <div class="col-7">
-                                                    <div class="col-centered" style="display: flex;">
-                                                        <span id="sidebar_blue" style="display: inline-block;">
-                                                        </span>
-                                                        <h5 class="card-title">Mock Agency <br>Website</h5>
-                                                    </div>
-                                                </div>
-                                                <div class="col-2">
-                                                    <a href="https://github.com/emgal-aguirre/mock-website"
-                                                        class="btn btn-primary checkout-btn" type="button"
-                                                        target="_blank">Check it
-                                                        Out</a>
-                                                </div>
-                                            </div>
-                                            <div class=" row">
-                                                <div class="col-12">
-                                                    <p class="card-discription">Description </p>
-                                                    <p class="card-text">This project is a simple and responsive design
-                                                        that may be used as a template for small agencies
-                                                    </p>
-                                                    <p class="card-discription">Technologies</p>
-                                                    <p class="card-text">HTML 5, CSS, Bootstrap and JavaScript
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Project 2 -->
-                        <div class="col mb-4">
-                            <div class="card small-card">
-                                <div class="row">
-                                    <div class="col-md-4">
-                                        <img src="Assets/listly-square.png" class="card-img" alt="...">
-                                    </div>
-                                    <div class="col-md-8">
-                                        <div class="card-body">
-                                            <div class="row">
-                                                <div class="col-7">
-                                                    <div class="col-centered" style="display: flex;">
-                                                        <span id="sidebar_blue" style="display: inline-block;">
-                                                        </span>
-                                                        <h5 class="card-title">Listly App</h5>
-                                                    </div>
-                                                </div>
-                                                <div class="col-2">
-                                                    <a href="https://github.com/destaneelg/project2"
-                                                        class="btn btn-primary checkout-btn" type="button"
-                                                        target="_blank">Check it
-                                                        Out</a>
-                                                </div>
-                                            </div>
-                                            <div class=" row">
-                                                <div class="col-12">
-                                                    <p class="card-discription">Description </p>
-                                                    <p class="card-text">Users can keep their to do list organized by
-                                                        entering a project name, discription and urgency level.
-                                                    </p>
-                                                    <p class="card-discription">Technologies</p>
-                                                    <p class="card-text">HTML 5, CSS, Bootstrap and JavaScript, SQL
-
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Homework -->
-                        <div class="col mb-4">
-                            <div class="card small-card">
-                                <div class="row">
-                                    <div class="col-md-4">
-                                        <img src="Assets/team-management.png" class="card-img" alt="...">
-                                    </div>
-                                    <div class="col-md-8">
-                                        <div class="card-body">
-                                            <div class="row">
-                                                <div class="col-7">
-                                                    <div class="col-centered" style="display: flex;">
-                                                        <span id="sidebar_blue" style="display: inline-block;">
-                                                        </span>
-                                                        <h5 class="card-title">Team Management <br>Directory</h5>
-                                                    </div>
-                                                </div>
-                                                <div class="col-2">
-                                                    <a href="https://github.com/emgal-aguirre/team-management-directory"
-                                                        class="btn btn-primary checkout-btn" type="button"
-                                                        target="_blank">Check it
-                                                        Out</a>
-                                                </div>
-                                            </div>
-                                            <div class=" row">
-                                                <div class="col-12">
-                                                    <p class="card-discription">Description </p>
-                                                    <p class="card-text">This application allows you to create an
-                                                        organized page of your team including their Name, Title, and
-                                                        contact information.
-                                                    </p>
-                                                    <p class="card-discription">Technologies</p>
-                                                    <p class="card-text">HTML 5, CSS, Bootstrap and JavaScript, Node.js
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Weather Dash -->
-                        <div class="col mb-4">
-                            <div class="card small-card">
-                                <div class="row">
-                                    <div class="col-md-4">
-                                        <img src="Assets/portfolio2.jpg" class="card-img" alt="...">
-                                    </div>
-                                    <div class="col-md-8">
-                                        <div class="card-body">
-                                            <div class="row">
-                                                <div class="col-7">
-                                                    <div class="col-centered" style="display: flex;">
-                                                        <span id="sidebar_blue" style="display: inline-block;">
-                                                        </span>
-                                                        <h5 class="card-title">Daily Weather <br>Dashboard</h5>
-                                                    </div>
-                                                </div>
-                                                <div class="col-2">
-                                                    <a href="https://github.com/emgal-aguirre/weather-dashboard"
-                                                        class="btn btn-primary checkout-btn" type="button"
-                                                        target="_blank">Check it
-                                                        Out</a>
-                                                </div>
-                                            </div>
-                                            <div class=" row">
-                                                <div class="col-12">
-                                                    <p class="card-discription">Description </p>
-                                                    <p class="card-text">When a user searches a city’s current weather
-                                                        forecast appears including Temperature, Humidity, and Wind
-                                                        speed.
-                                                    </p>
-                                                    <p class="card-discription">Technologies</p>
-                                                    <p class="card-text">HTML 5, CSS, Bootstrap and JavaScript,
-                                                        Moment.js and a Weather API
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Quiz -->
-                        <div class="col mb-4">
-                            <div class="card small-card">
-                                <div class="row">
-                                    <div class="col-md-4">
-                                        <img src="Assets/portfolio3.jpg" class="card-img" alt="...">
-                                    </div>
-                                    <div class="col-md-8">
-                                        <div class="card-body">
-                                            <div class="row">
-                                                <div class="col-7">
-                                                    <div class="col-centered" style="display: flex;">
-                                                        <span id="sidebar_blue" style="display: inline-block;">
-                                                        </span>
-                                                        <h5 class="card-title">Javascript <br>quiz</h5>
-                                                    </div>
-                                                </div>
-                                                <div class="col-2">
-                                                    <a href="https://github.com/emgal-aguirre/Code-Quiz"
-                                                        class="btn btn-primary checkout-btn" type="button"
-                                                        target="_blank">Check it
-                                                        Out</a>
-                                                </div>
-                                            </div>
-                                            <div class=" row">
-                                                <div class="col-12">
-                                                    <p class="card-discription">Description </p>
-                                                    <p class="card-text"> A user clicks to start the quiz. Upon
-                                                        starting the quiz a timer starts and for each question answered
-                                                        incorrectly, 10 points are deducted.
-                                                    </p>
-                                                    <p class="card-discription">Technologies</p>
-                                                    <p class="card-text">HTML 5, CSS, Bootstrap and JavaScript
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+      <div class="container-fluid project-background mt-5 p-1">
+        <div class="card-body">
+          <div class="row project-title">
+            <div class="col-centered" style="display: flex">
+              <span id="square_blue" style="display: inline-block"> </span>
+              <h4>Projects</h4>
             </div>
+          </div>
+          <div class="row project-text">
+            <div class="col-centered" style="display: flex">
+              <p>Check out some of my projects down below!</p>
+              <p></p>
+            </div>
+          </div>
+
+          <!-- adding 2 new projects -->
+
+          <!-- random recipie generator -->
+          <div class="container main-container project-card">
+            <div class="row row-cols-1 row-cols-md-2">
+              <div class="col mb-4">
+                <div class="card small-card">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <img
+                        src="Assets/portfolio4.jpg"
+                        class="card-img"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="col-7">
+                            <div class="col-centered" style="display: flex">
+                              <span
+                                id="sidebar_blue"
+                                style="display: inline-block"
+                              >
+                              </span>
+                              <h5 class="card-title">
+                                Random Recipe <br />Generator
+                              </h5>
+                            </div>
+                          </div>
+                          <div class="col-2">
+                            <a
+                              href="https://emgal-aguirre.github.io/Recipe-Generator/"
+                              class="btn btn-primary checkout-btn"
+                              type="button"
+                              target="_blank"
+                              >Check it Out</a
+                            >
+                            <a
+                              href="https://github.com/emgal-aguirre/Recipe-Generator"
+                              class="btn btn-primary checkout-btn-git"
+                              type="button"
+                              target="_blank"
+                              >Github Repo</a
+                            >
+                          </div>
+                        </div>
+
+                        <div class="row">
+                          <div class="col-12">
+                            <p class="card-discription">Description</p>
+                            <p class="card-text">
+                              A simple script generates a random recipe based on
+                              the meal type the user selected.
+                            </p>
+                            <p class="card-discription">Technologies</p>
+                            <p class="card-text">
+                              HTML 5, CSS, Materialize CDN, JavaScript, JQuery
+                              <br />
+                              APIs Used: Edamam, Moment.Js
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- new projects  -->
+              <div class="col mb-4">
+                <div class="card small-card">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <img
+                        src="Assets/portfolio.jpg"
+                        class="card-img"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="col-7">
+                            <div class="col-centered" style="display: flex">
+                              <span
+                                id="sidebar_blue"
+                                style="display: inline-block"
+                              >
+                              </span>
+                              <h5 class="card-title">
+                                Mock Agency <br />Website
+                              </h5>
+                            </div>
+                          </div>
+                          <div class="col-2">
+                            <a
+                              href="https://emgal-aguirre.github.io/mock-website/"
+                              class="btn btn-primary checkout-btn"
+                              type="button"
+                              target="_blank"
+                              >Check it Out</a
+                            >
+                            <a
+                              href="https://github.com/emgal-aguirre/mock-website"
+                              class="btn btn-primary checkout-btn-git"
+                              type="button"
+                              target="_blank"
+                              >Github Repo</a
+                            >
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-12">
+                            <p class="card-discription">Description</p>
+                            <p class="card-text">
+                              This project is a simple and responsive design
+                              that may be used as a template for small agencies
+                            </p>
+                            <p class="card-discription">Technologies</p>
+                            <p class="card-text">
+                              HTML 5, CSS, Bootstrap and JavaScript
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Project 2 -->
+              <div class="col mb-4">
+                <div class="card small-card">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <img
+                        src="Assets/listly-square.png"
+                        class="card-img"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="col-7">
+                            <div class="col-centered" style="display: flex">
+                              <span
+                                id="sidebar_blue"
+                                style="display: inline-block"
+                              >
+                              </span>
+                              <h5 class="card-title">Listly App</h5>
+                            </div>
+                          </div>
+                          <div class="col-2">
+                            <a
+                              href="https://listlyassistant.herokuapp.com/"
+                              class="btn btn-primary checkout-btn"
+                              type="button"
+                              target="_blank"
+                              >Check it Out</a
+                            >
+                            <a
+                              href="https://github.com/destaneelg/project2"
+                              class="btn btn-primary checkout-btn-git"
+                              type="button"
+                              target="_blank"
+                              >Github Repo</a
+                            >
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-12">
+                            <p class="card-discription">Description</p>
+                            <p class="card-text">
+                              Users can keep their to do list organized by
+                              entering a project name, discription and urgency
+                              level.
+                            </p>
+                            <p class="card-discription">Technologies</p>
+                            <p class="card-text">
+                              HTML 5, CSS, Bootstrap and JavaScript, SQL
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Homework -->
+              <div class="col mb-4">
+                <div class="card small-card">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <img
+                        src="Assets/team-management.png"
+                        class="card-img"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="col-7">
+                            <div class="col-centered" style="display: flex">
+                              <span
+                                id="sidebar_blue"
+                                style="display: inline-block"
+                              >
+                              </span>
+                              <h5 class="card-title">
+                                Team Management <br />Directory
+                              </h5>
+                            </div>
+                          </div>
+                          <div class="col-2">
+                            <a
+                              href="https://www.youtube.com/watch?v=BYRczhnrzp0&feature=youtu.be&ab_channel=EmilyGallawayAguirre"
+                              class="btn btn-primary checkout-btn"
+                              type="button"
+                              target="_blank"
+                              >Check it Out</a
+                            >
+                            <a
+                              href="https://github.com/emgal-aguirre/team-management-directory"
+                              class="btn btn-primary checkout-btn-git"
+                              type="button"
+                              target="_blank"
+                              >Github Repo</a
+                            >
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-12">
+                            <p class="card-discription">Description</p>
+                            <p class="card-text">
+                              This application allows you to create an organized
+                              page of your team including their Name, Title, and
+                              contact information.
+                            </p>
+                            <p class="card-discription">Technologies</p>
+                            <p class="card-text">
+                              HTML 5, CSS, Bootstrap and JavaScript, Node.js
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Weather Dash -->
+              <div class="col mb-4">
+                <div class="card small-card">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <img
+                        src="Assets/portfolio2.jpg"
+                        class="card-img"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="col-7">
+                            <div class="col-centered" style="display: flex">
+                              <span
+                                id="sidebar_blue"
+                                style="display: inline-block"
+                              >
+                              </span>
+                              <h5 class="card-title">
+                                Daily Weather <br />Dashboard
+                              </h5>
+                            </div>
+                          </div>
+                          <div class="col-2">
+                            <a
+                              href="https://emgal-aguirre.github.io/weather-dashboard/"
+                              class="btn btn-primary checkout-btn"
+                              type="button"
+                              target="_blank"
+                              >Check it Out</a
+                            >
+                            <a
+                              href="https://github.com/emgal-aguirre/weather-dashboard"
+                              class="btn btn-primary checkout-btn-git"
+                              type="button"
+                              target="_blank"
+                              >Github Repo</a
+                            >
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-12">
+                            <p class="card-discription">Description</p>
+                            <p class="card-text">
+                              When a user searches a city’s current weather
+                              forecast appears including Temperature, Humidity,
+                              and Wind speed.
+                            </p>
+                            <p class="card-discription">Technologies</p>
+                            <p class="card-text">
+                              HTML 5, CSS, Bootstrap and JavaScript, Moment.js
+                              and a Weather API
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Quiz -->
+              <div class="col mb-4">
+                <div class="card small-card">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <img
+                        src="Assets/portfolio3.jpg"
+                        class="card-img"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="col-7">
+                            <div class="col-centered" style="display: flex">
+                              <span
+                                id="sidebar_blue"
+                                style="display: inline-block"
+                              >
+                              </span>
+                              <h5 class="card-title">Javascript <br />quiz</h5>
+                            </div>
+                          </div>
+                          <div class="col-2">
+                            <a
+                              href="https://emgal-aguirre.github.io/Code-Quiz/"
+                              class="btn btn-primary checkout-btn"
+                              type="button"
+                              target="_blank"
+                              >Check it Out</a
+                            >
+                            <a
+                              href="https://github.com/emgal-aguirre/Code-Quiz"
+                              class="btn btn-primary checkout-btn-git"
+                              type="button"
+                              target="_blank"
+                              >Github Repo</a
+                            >
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-12">
+                            <p class="card-discription">Description</p>
+                            <p class="card-text">
+                              A user clicks to start the quiz. Upon starting the
+                              quiz a timer starts and for each question answered
+                              incorrectly, 10 points are deducted.
+                            </p>
+                            <p class="card-discription">Technologies</p>
+                            <p class="card-text">
+                              HTML 5, CSS, Bootstrap and JavaScript
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
     <style>
-        @media only screen and (max-width: 600px) {
-            .header-title {
-                display: none;
-            }
+      @media only screen and (max-width: 600px) {
+        .header-title {
+          display: none;
         }
+      }
     </style>
-</body>
-
+  </body>
 </html>
