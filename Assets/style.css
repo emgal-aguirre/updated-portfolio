@@ -7,8 +7,7 @@ body {
 .navbar {
   color: black;
   padding-top: 40px;
-  margin-left: 10px;
-  margin-right: 10px;
+
   padding-bottom: 10px;
 }
 .name {
@@ -36,7 +35,7 @@ small {
   height: 15px;
   margin-right: 10px;
   margin-top: 10px;
-  background: #0d50ff;
+  background: #7d9fd3;
 }
 
 .line {
@@ -46,7 +45,7 @@ small {
   height: 2px;
   width: 50px;
   margin-top: 380px;
-  background-color: #0d50ff;
+  background-color: #7d9fd3;
 }
 /* dont delete below astrict */
 */
@@ -102,7 +101,8 @@ h1 {
 }
 
 .resume-btn {
-  background-color: #0d50ff;
+  background-color: #7d9fd3;
+  border: #7d9fd3;
   margin-top: 30px;
   padding: 5px;
   margin-left: 5px;
@@ -275,7 +275,7 @@ ul {
 }
 
 .solid-blue {
-  border-top: 3px solid #0d50ff;
+  border-top: 3px solid #7d9fd3;
   margin-top: 40px;
   width: 50%;
 }
@@ -317,8 +317,81 @@ ul {
 .projects-home {
   align-items: center;
   text-align: center;
-  margin-top: 80px;
+
   padding-top: 10px;
   align-items: center;
   justify-content: center;
+}
+
+.projects-home .project-title {
+  text-align: center;
+
+  padding-top: 10px;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.projects-home h4 {
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+.projects-home .project-text {
+  text-align: center;
+  margin-top: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects-home .card-body {
+  text-align: left;
+}
+
+.projects-home .card-title {
+  font-weight: bolder;
+  color: #0d50ff;
+  margin-bottom: 2px;
+}
+
+/* curved */
+
+.curved {
+  background: #7d9fd3;
+  color: white;
+  text-align: center;
+  margin-bottom: -5px;
+}
+
+.curved h1 {
+  font-size: 6rem;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 0;
+}
+
+.curved p {
+  font-size: 1rem;
+  font-family: 'Poppins';
+}
+
+.curved svg {
+  display: block;
+}
+
+.curved.upper {
+  background-color: #f0efec;
+}
+
+.card-title-skill {
+  color: White;
+  text-decoration: underline;
+  font-weight: bolder;
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+.list {
+  color: white;
+  list-style-type: none;
+  font-size: 18px;
 }

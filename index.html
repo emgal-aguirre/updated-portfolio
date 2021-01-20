@@ -8,13 +8,17 @@
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap"
         rel="stylesheet">
+        <link
+        href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400;0,500;0,600;0,700;0,900;1,500&display=swap"
+        rel="stylesheet"
+      />
     <link rel="stylesheet" href="Assets/style.css">
     <title>emgal.dev</title>
 </head>
 
 <body>
     <nav class="navbar">
-        <a class="name">Emily Aguirre<small class="header-title"> /Front-end Developer</small></a>
+        <a class="name">Emily Aguirre<small class="header-title"> / Front-End Developer</small></a>
         <div class="form-inline">
             <a href="./index.html" class="nav-link">ABOUT ME</a>
             <a href="./portfolio.html" class="nav-link">PROJECTS</a>
@@ -32,7 +36,7 @@
                         <div class="card bio-card" style="width: 18rem; align-items: center;">
                             <img src="Assets/Headshot_EGA.jpg" class="card-img-top headshot" style="max-width:250px">
                             <div class=" card-body">
-                                <h4 class="name headshot-name">Emily <br> Aguirre</h4>
+                                <h4 class="name headshot-name"><strong>Emily</strong><br> <strong>Aguirre</strong></h4>
                                 <hr class="solid-blue">
                                 <br>
                                 <h6 class="title">FRONT END DEVELOPER</h6>
@@ -68,7 +72,53 @@
             </div>
         </div>
     </section>
+       <!-- skills div -->
+       <div class="curved upper">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#7d9fd3" fill-opacity="1" d="M0,224L60,224C120,224,240,224,360,234.7C480,245,600,267,720,245.3C840,224,960,160,1080,128C1200,96,1320,96,1380,96L1440,96L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
+          </svg>
+         </div>
+    <div class="curved">
+          <span id="square_white" style="display: inline-block"> </span>
+        <h4><strong>Technical Skills</strong></h4>
+        <p>Check out some of my projects down below!</p>
+        <div class="row">
+            <div class="col-md-4">
+                <h5 class="card-title-skill">Front-End</h5>
+                <ul class="list">
+                    <li class="list">Javascript</li>
+                    <li>React</li>
+                    <li>HTML & CSS</li>
+                    <li>JQuery</li>
+                    <li>Bootstrap</li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h5 class="card-title-skill">Back-End</h5>
+                <ul class="list">
+                    <li class="list">Node.js</li>
+                    <li>Express.js</li>
+                    <li>MySQL</li>
+                    <li>MongoDB</li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h5 class="card-title-skill">Dev Tools</h5>
+                <ul class="list">
+                    <li class="list">Git</li>
+                    <li>Heroku</li>
+                    <li>VS Code</li>
+                    <li>Chrome Dev Tools</li>
+                </ul>
+            </div>
+        </div>
+          </div>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#7d9fd3" fill-opacity="1" d="M0,224L60,224C120,224,240,224,360,234.7C480,245,600,267,720,245.3C840,224,960,160,1080,128C1200,96,1320,96,1380,96L1440,96L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path>
+          </svg>
     <section>
+
+     
           <!-- project section -->
     <section class="projects-home">
         <div class="container-fluid project-background mt-5 p-1">
@@ -137,7 +187,7 @@
                     </div>
                     </div>
     </section>
-
+   
     <!-- Remove "Front End Developer" title on small screen-->
     <style>
         @media only screen and (max-width: 600px) {
@@ -146,6 +196,7 @@
             }
         }
     </style>
+    
 </body>
 
 </html>
